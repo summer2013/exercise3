@@ -1,5 +1,9 @@
 // Karma configuration
+<<<<<<< HEAD
 // Generated on Fri May 18 2018 18:33:04 GMT+0800 (CST)
+=======
+// Generated on Sat Aug 05 2017 13:52:50 GMT+0800 (CST)
+>>>>>>> 0cdcb00f986244b220bd64a3c5f05123fa2e2e77
 
 module.exports = function(config) {
   config.set({
@@ -15,9 +19,15 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+<<<<<<< HEAD
 	  'https://cdn.bootcss.com/jquery/2.2.4/jquery.js',
 	  'node_modules/should/should.js',
       'test/*.js'
+=======
+      'https://cdn.bootcss.com/jquery/2.2.4/jquery.js',
+      'node_modules/should/should.js',
+      'test/**.js'
+>>>>>>> 0cdcb00f986244b220bd64a3c5f05123fa2e2e77
     ],
 
 
@@ -57,8 +67,12 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+<<<<<<< HEAD
     // browsers: ['Firefox', 'Safari', 'Chrome', 'IE'],
     browsers: ['Chrome', 'Safari'],
+=======
+    browsers: ['Chrome'],
+>>>>>>> 0cdcb00f986244b220bd64a3c5f05123fa2e2e77
 
 
     // Continuous Integration mode
